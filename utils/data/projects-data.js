@@ -9,7 +9,7 @@ export const projectsData = [
         name: 'Activity Hub - Tourism Web Application',
         description: "Activity Hub is a comprehensive Tourism Web Application that brings together travelers, site providers, and administrators in an interactive and seamless platform. The project is built using React for the frontend, Node.js for the backend, and MySQL for the database, providing a robust and scalable solution for managing tourism activities and services.",
         tools: ['MySQL', 'Express', 'React', 'Node.js', 'Rest Apis', 'Node Mailer','JWT'],
-        role: 'Full Stck Developer',
+        role: 'Full Stack Developer',
         code: '',
         demo: '',
         // image: crefin,
