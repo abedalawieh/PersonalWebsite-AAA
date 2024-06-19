@@ -128,7 +128,8 @@ function HeroSection() {
 
                 <span className="text-amber-300">ASP.NET</span>
                 <span className="text-gray-400">{"', '"}</span>
-
+                <span className="text-amber-300">Spring Boot</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Azure</span>
                 <span className="text-gray-400">{"', '"}</span>
 
