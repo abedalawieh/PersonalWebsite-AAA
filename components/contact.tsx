@@ -90,7 +90,7 @@ export function Footer() {
         </p>
         <div className="flex items-center gap-4">
           <a href="mailto:abedalawieh@gmail.com" className="hover:text-foreground transition-colors">Email</a>
-          <a href="https://www.linkedin.com/in/abed-alawieh" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/abed-alawieh-0431051a4/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
           <a href="https://github.com/abedalawieh" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
         </div>
       </div>
