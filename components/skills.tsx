@@ -12,6 +12,21 @@ type SkillGroup = {
 
 const groups: SkillGroup[] = [
   {
+    title: 'Consulting & Client Delivery',
+    icon: null,
+    skills: ['Requirements Gathering', 'Client Implementation', 'Customization & Configuration', 'Technical Investigations', 'Stakeholder Communication', 'Post-Live Support', 'Project Lifecycle Delivery', 'Business-to-Technical Translation'],
+  },
+  {
+    title: 'SQL & Database Engineering',
+    icon: '/svg/skills/postgresql.svg',
+    skills: ['SQL Server (T-SQL)', 'Stored Procedures', 'Functions', 'Views', 'CTEs', 'Window Functions', 'Complex Joins', 'Query Optimization', 'Performance Tuning', 'Indexing', 'Transactions', 'Schema Design', 'Data Migration', 'ETL'],
+  },
+  {
+    title: 'Reporting & BI',
+    icon: null,
+    skills: ['Power BI', 'Apache Superset', 'SQL Reporting', 'Dashboards', 'Data Analysis', 'KPI Tracking'],
+  },
+  {
     title: 'Backend',
     icon: '/svg/skills/csharp.svg',
     skills: ['C#', 'ASP.NET Core', 'ASP.NET MVC', '.NET 8', 'Java Spring Boot', 'Spring WebFlux', 'Node.js', 'Express.js', 'REST APIs', 'GraphQL', 'WebSockets', 'Microservices', 'Background Jobs', 'Clean Architecture', 'SOLID Principles'],
@@ -22,9 +37,9 @@ const groups: SkillGroup[] = [
     skills: ['React.js', 'Next.js', 'Angular', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Redux', 'Vite', 'jQuery', 'Bootstrap', 'Design Systems', 'Responsive UI', 'Component Libraries', 'Frontend Architecture'],
   },
   {
-    title: 'Databases',
-    icon: '/svg/skills/postgresql.svg',
-    skills: ['SQL Server / MSSQL', 'PostgreSQL', 'MySQL', 'MongoDB', 'MongoDB Atlas', 'Oracle', 'Entity Framework', 'Dapper', 'Hibernate / JPA', 'Query Optimization', 'Stored Procedures', 'Database Design'],
+    title: 'Database Platforms & ORMs',
+    icon: '/svg/skills/mongoDB.svg',
+    skills: ['MSSQL', 'PostgreSQL', 'MySQL', 'MongoDB', 'MongoDB Atlas', 'Oracle', 'Entity Framework', 'Dapper', 'Hibernate / JPA'],
   },
   {
     title: 'Cloud & DevOps',

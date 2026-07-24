@@ -10,14 +10,15 @@ export function Contact() {
             {"Let's work together"}
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-10 text-pretty">
-            I am open to Senior Software Engineer, Full-Stack Engineer, Backend Engineer, and SaaS product
-            engineering opportunities. Whether you are building a product, modernizing a platform, or looking
-            for an engineer who can contribute from day one — I would love to connect.
+            I am open to Senior Software Engineer, Technical Consultant, Full-Stack Engineer, and SaaS
+            implementation and delivery opportunities. Whether you are building a product, modernizing a
+            platform, or need someone who can consult with clients and turn requirements into working
+            software — I would love to connect.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-12">
             <a
-              href="mailto:abedalawieh@gmail.com"
+              href="mailto:abedrazakalawiyeh@gmail.com"
               className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-md bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
@@ -55,7 +56,8 @@ export function Contact() {
 
           <div className="grid sm:grid-cols-3 gap-4">
             {[
-              { label: 'Email', value: 'abedalawieh@gmail.com', href: 'mailto:abedalawieh@gmail.com' },
+              { label: 'Email', value: 'abedrazakalawiyeh@gmail.com', href: 'mailto:abedrazakalawiyeh@gmail.com' },
+              { label: 'Phone', value: '+961 76 073 446', href: 'tel:+96176073446' },
               { label: 'Location', value: 'Beirut, Lebanon', href: null },
             ].map((item) => (
               <div key={item.label} className="rounded-lg border border-border bg-muted/20 px-4 py-3">
@@ -83,13 +85,13 @@ export function Footer() {
     <footer className="border-t border-border px-6 py-8">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
         <p>
-          &copy; {new Date().getFullYear()} Abed Alawieh · Senior Software Engineer
+          &copy; {new Date().getFullYear()} Abed Alawieh · Senior Software Engineer & Technical Consultant
         </p>
         <p className="text-center">
           Beirut, Lebanon · Available for remote & on-site opportunities
         </p>
         <div className="flex items-center gap-4">
-          <a href="mailto:abedalawieh@gmail.com" className="hover:text-foreground transition-colors">Email</a>
+          <a href="mailto:abedrazakalawiyeh@gmail.com" className="hover:text-foreground transition-colors">Email</a>
           <a href="https://www.linkedin.com/in/abed-alawieh-0431051a4/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
           <a href="https://github.com/abedalawieh" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
         </div>

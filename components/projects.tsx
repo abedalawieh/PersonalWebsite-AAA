@@ -23,15 +23,15 @@ const projects: Project[] = [
     category: 'Enterprise SaaS · Real Estate',
     description:
       'Enterprise financial appraisal platform for land development viability analysis. Used by major UK housebuilders including Persimmon Homes, Metcalfe, Vivid, and Gentoo for cashflow modeling, sensitivity analysis, and project value assessment.',
-    impact: 'Modernized frontend architecture and multi-tenant system for a commercially active SaaS product serving enterprise clients.',
+    impact: 'Consulted directly with UK clients and delivered tailored SQL, customizations, and modernization for a commercially active SaaS product.',
     details: [
+      'Consulted with UK real estate & property-development clients — gathering requirements and delivering tailored customizations and deployments.',
+      'Engineered complex T-SQL: stored procedures, functions, and views, with indexing and query tuning for enterprise performance.',
       'Migrated legacy frontend to React.js, TypeScript, and Tailwind CSS; built reusable design system from scratch.',
       'Redesigned multi-tenant architecture: Organisation → Division → Region with RBAC, branding inheritance, and license rules.',
-      'Led LandvalCloud database migration consolidating per-tenant MongoDB databases into a single scalable architecture.',
-      'Integrated Keycloak for SSO, MFA/TOTP, JWT, user provisioning, and identity lifecycle management.',
-      'Deployed on AWS S3 (frontend) and Windows IIS (backend); monitored with New Relic APM.',
+      'Integrated Keycloak (SSO, MFA/TOTP, JWT); deployed on AWS and Windows IIS with New Relic monitoring.',
     ],
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Redux', 'ASP.NET Core', 'C#', 'MongoDB', 'Keycloak', 'AWS', 'New Relic'],
+    tags: ['SQL Server / T-SQL', 'React', 'TypeScript', 'ASP.NET Core', 'C#', 'MongoDB', 'Keycloak', 'AWS', 'New Relic'],
     accent: '#7c9a5e',
   },
   {

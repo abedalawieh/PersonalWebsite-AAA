@@ -57,14 +57,15 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl font-medium text-primary mb-4 tracking-tight">
-            Senior Software Engineer · Full-Stack
+            Senior Software Engineer & Technical Consultant
           </p>
 
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mb-10 text-pretty">
-            I build and modernize production systems — from enterprise SaaS platforms and
-            government workflow systems to high-traffic telecom gateways and cloud-deployed
-            backends. Based in Beirut, Lebanon, with a track record of shipping real software
-            for real clients.
+            Full-stack engineer and technical consultant delivering client-facing
+            implementations, customizations, and support for enterprise SaaS platforms.
+            I translate business requirements into technical solutions — from SQL Server /
+            T-SQL engineering and BI reporting to cloud deployment — and guide clients through
+            the full project lifecycle, from implementation to post-live support.
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -81,7 +82,7 @@ export function Hero() {
               Experience
             </a>
             <a
-              href="mailto:abedalawieh@gmail.com"
+              href="mailto:abedrazakalawiyeh@gmail.com"
               className="px-5 py-2.5 rounded-md border border-border bg-background/80 backdrop-blur-sm text-foreground text-sm font-semibold hover:border-primary transition-colors"
             >
               Contact Me

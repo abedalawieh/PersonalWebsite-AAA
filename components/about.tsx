@@ -1,16 +1,18 @@
 import Image from 'next/image'
 
 const highlights = [
+  'Technical consulting & client implementation',
+  'Requirements gathering & stakeholder communication',
+  'SQL Server / T-SQL engineering & query optimization',
+  'BI reporting & dashboards (Power BI, Superset)',
   'Backend engineering & API design',
   'SaaS modernization & frontend architecture',
   'Enterprise & government systems',
-  'Telecom gateway & high-traffic systems',
   'Cloud, Docker, AWS, IIS deployment',
   'Identity & access management (Keycloak)',
   'Security testing & audit readiness',
   'AI & computer vision research',
   'Technical leadership & mentoring',
-  'Client-facing delivery & stakeholder communication',
 ]
 
 export function About() {
@@ -34,17 +36,20 @@ export function About() {
               About
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground text-balance leading-tight mb-6">
-              Engineering systems that work at scale
+              Engineering solutions, delivering for clients
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I am a Senior Software Engineer with hands-on experience building, maintaining, and modernizing
-                real production systems across enterprise SaaS, telecom, government, and digital agency environments.
+                I am a Senior Software Engineer and Technical Consultant with a track record of delivering
+                client-facing implementations, customizations, and support for enterprise SaaS platforms across
+                real estate, telecom, government, and digital agency environments.
               </p>
               <p>
-                My work spans the full stack — designing secure backend APIs, modernizing legacy frontends,
-                containerizing multi-service deployments, and integrating identity and access management systems
-                trusted by enterprise clients and government entities.
+                I gather and translate business requirements into technical solutions — designing SQL Server /
+                T-SQL data layers, building reports and dashboards, and guiding clients through the full project
+                lifecycle from implementation to post-live support. My work spans the full stack, from secure
+                backend APIs and modernized frontends to containerized, cloud-deployed systems and identity and
+                access management.
               </p>
               <p>
                 I hold an MSc in Computer Engineering from Lebanese International University and hold the
@@ -62,7 +67,7 @@ export function About() {
               <span className="w-px h-4 bg-border" aria-hidden="true" />
               <span className="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                abedalawieh@gmail.com
+                abedrazakalawiyeh@gmail.com
               </span>
             </div>
           </div>

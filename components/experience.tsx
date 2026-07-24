@@ -18,13 +18,16 @@ const roles: Role[] = [
   {
     company: 'Aspire / SDS',
     companyFull: 'Aspire Software / Shelton Development Services',
-    role: 'Senior Software Engineer',
+    role: 'Software Engineer & Technical Consultant',
     period: 'Mar 2026 — Present',
     current: true,
     location: 'Remote',
     summary:
-      'Leading frontend modernization and architecture of Landval — an enterprise SaaS platform for real estate financial appraisal used by UK housebuilders. Driving the transition from a legacy stack to a modern React/TypeScript architecture while advancing Keycloak-based identity management and AWS cloud operations.',
+      'Software engineer and technical consultant on Landval — an enterprise SaaS platform for real estate financial appraisal used by UK housebuilders. Consulting directly with UK-based clients in the real estate and property development sector: gathering requirements, engineering complex SQL Server / T-SQL solutions, and delivering tailored customizations and deployments alongside frontend modernization and AWS cloud operations.',
     achievements: [
+      'Designed and optimized complex T-SQL queries, stored procedures, functions, and views; improved performance through indexing, execution-plan analysis, and query tuning.',
+      'Consulted directly with UK enterprise clients — gathering requirements and delivering tailored customizations, deployments, and SQL-based reporting solutions.',
+      'Participated in database schema design, data migration, and ETL activities across the multi-tenant platform.',
       'Leading migration of legacy frontend to React.js, TypeScript, and Tailwind CSS with a reusable design system.',
       'Designed and implemented a complete UI component library (Button, Input, Badge, Card, PageHeader, etc.) aligned with a Stripe/Linear-inspired design style.',
       'Architected multi-tenant organization hierarchy (Organisation → Division → Region) with RBAC, branding inheritance, and license propagation.',
@@ -34,12 +37,12 @@ const roles: Role[] = [
       'Conducted OWASP ZAP penetration tests and Semgrep SAST scans; prepared audit evidence and security remediation.',
       'Collaborated with product leadership and clients including Persimmon Homes, Metcalfe, Vivid, and Gentoo.',
     ],
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Redux', 'ASP.NET Core', 'C#', 'MongoDB', 'PostgreSQL', 'MSSQL', 'Keycloak', 'AWS S3/EC2', 'IIS', 'New Relic', 'Docker'],
+    tags: ['SQL Server / T-SQL', 'Stored Procedures', 'Query Optimization', 'ETL', 'React', 'TypeScript', 'Tailwind CSS', 'ASP.NET Core', 'C#', 'MongoDB', 'PostgreSQL', 'Keycloak', 'AWS S3/EC2', 'IIS', 'New Relic', 'Docker'],
   },
   {
     company: 'Intalio',
     companyFull: 'Intalio',
-    role: 'Software Engineer',
+    role: 'Software Engineer & Consultant',
     period: 'Mar 2025 — Mar 2026',
     location: 'Beirut, Lebanon',
     summary:

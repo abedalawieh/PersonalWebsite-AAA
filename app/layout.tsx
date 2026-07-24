@@ -14,27 +14,29 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Abed Alawieh — Senior Software Engineer',
+  title: 'Abed Alawieh — Senior Software Engineer & Technical Consultant',
   description:
-    'Senior Full-Stack Software Engineer based in Beirut, Lebanon. Specializing in backend engineering, SaaS modernization, enterprise systems, cloud deployment, and identity management.',
+    'Senior Software Engineer and Technical Consultant based in Beirut, Lebanon. Client-facing implementations and customizations for enterprise SaaS platforms, SQL Server / T-SQL engineering, BI reporting, cloud deployment, and identity management.',
   generator: 'v0.app',
   keywords: [
     'Senior Software Engineer',
+    'Technical Consultant',
     'Full-Stack Engineer',
-    'Backend Engineer',
+    'SQL Server Developer',
+    'T-SQL',
+    'Enterprise SaaS',
     '.NET Developer',
     'React Developer',
+    'Power BI',
     'Abed Alawieh',
     'Beirut',
     'Lebanon',
-    'SaaS',
-    'Enterprise',
     'ASP.NET Core',
   ],
   openGraph: {
-    title: 'Abed Alawieh — Senior Software Engineer',
+    title: 'Abed Alawieh — Senior Software Engineer & Technical Consultant',
     description:
-      'Senior Full-Stack Software Engineer specializing in backend engineering, SaaS modernization, enterprise systems, and cloud deployment.',
+      'Senior Software Engineer and Technical Consultant delivering client-facing implementations, SQL Server / T-SQL solutions, BI reporting, and enterprise SaaS customizations.',
     type: 'website',
   },
 }
